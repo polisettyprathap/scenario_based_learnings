@@ -18,3 +18,4 @@ def clean_old_artifacts(artifactory_url, repo, retention_days, artifactory_user,
 
 if __name__ == "__main__":
     clean_old_artifacts("http://artifactory.example.com/artifactory", "libs-release-local", 30, "artifactory_user", "artifactory_password")
+
